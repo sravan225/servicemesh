@@ -29,7 +29,7 @@ EOF
 sudo apt-get update
 
 #Install packages
-sudo apt-get install -y kubelet=1.21-00 kubeadm=1.21-00 kubectl=1.21-00
+sudo apt-get install -y kubelet=1.22.1-00 kubeadm=1.22.1-00 kubectl=1.22.1-00
 
 #Prevent auto updates for kube package
 sudo apt-mark hold kubelet kubeadm kubectl
